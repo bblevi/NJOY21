@@ -6,10 +6,10 @@
 	url = https://github.com/njoy/Log.git
 [submodule "dependencies/tclap-adapter"]
 	path = dependencies/tclap-adapter
-	url = https://github.com/apmccartney/tclap-adapter.git
+	url = https://github.com/njoy/tclap-adapter.git
 [submodule "dependencies/catch-adapter"]
 	path = dependencies/catch-adapter
-	url = https://github.com/apmccartney/catch-adapter.git
+	url = https://github.com/njoy/catch-adapter.git
 [submodule "dependencies/dimwits"]
 	path = dependencies/dimwits
 	url = https://github.com/njoy/DimensionalAnalysis.git
