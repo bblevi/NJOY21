@@ -69,7 +69,7 @@ def traverse_dependencies( destination, traversed, git ):
             update_repository( git )
             if not os.path.isdir( os.path.join( destination, dependency ) ):
                 try:
-                    os.symlink( os.getcwd(),
+                    os.symlink( os.path.relpath( os.getcwd(), destination ),
                                 os.path.join( destination, dependency ) )
 
                 except OSError:
